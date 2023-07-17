@@ -1,0 +1,40 @@
+html{
+  background-color:black;
+  color:#fff;
+}
+
+
+.form{
+  width: 300px;
+  margin: 30px auto;
+  padding: 20px;
+ 
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+form input{
+  padding: 0.8rem;
+  border-radius: 20px;
+  border: none;
+}
+
+form button{
+  font-size: 20px;
+  padding: 0.6rem;
+  background-color: rgba(226, 167, 16, 0.678);
+  color: rgb(7, 3, 3);
+  border-radius: 20px;
+  border: none;
+  font-weight: bold;
+
+}
+form button:hover{
+  background-color: rgba(197, 144, 10, 0.329);
+}
+
+
