@@ -26,7 +26,7 @@ form input{
 form button{
   font-size: 20px;
   padding: 0.6rem;
-  background-color: rgba(226, 167, 16, 0.678);
+  background-color: rgb(229, 255, 0);
   color: rgb(7, 3, 3);
   border-radius: 20px;
   border: none;
@@ -34,7 +34,58 @@ form button{
 
 }
 form button:hover{
-  background-color: rgba(197, 144, 10, 0.329);
+  background-color: rgba(229, 255, 0, 0.699);
 }
 
+a{
+  color: #fff;
+  text-decoration: none;
+}
+a:hover{
+  color: rgba(229, 255, 0, 0.699);
+}
 
+nav {
+  font-size: 13px;
+
+  border-bottom: 2px solid wheat;
+  margin: 10px 0 40px 0;
+  /* padding: 8px 2px; */
+
+}
+nav ul {
+  padding: 0px 10px;
+  
+  display: flex;
+  gap: 10px;
+}
+
+nav ul li{
+  list-style: none
+  ;
+
+}
+
+.profilePage{
+  text-align: center;
+}
+
+.logout{
+  font-weight: bold;
+  background-color: rgb(229, 255, 0);
+  padding: 8px;
+  width: 120px;
+  margin: 20px;
+  border: none;
+  border-radius: 10px;
+}
+
+.logout:hover{
+  background-color: rgba(229, 255, 0, 0.699);
+
+
+}
+
+.infoProfile{
+  font-size: 13px;
+}
